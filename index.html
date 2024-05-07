@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <img 
+        src="./assets/img/logo.gif" 
+        alt="gif_money_hands"
+        class="gif"
+        />
+    <main>
+        <label>
+            Conveter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+        <label>
+            Converter <b>para</b>
+            <select>
+                <option>U$ Dolar Americano</option>
+                <option>€ Euro</option>
+            </select>
+        </label>
+        <label>
+            Valor
+            <input class="input-currency" placeholder="R$ 10.000,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+            
+                <div class="currency-box">
+                    <img src="./assets/img/brasil.jpg" alt="to_convert">
+                    <p class="currency">Real</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
+                </div>
+                <img src="./assets/img/vector.jpg" alt="arrow" class="arrow-img">
+                <div class="currency-box">
+                    <img src="./assets/img/eua.jpg" alt="converted">
+                    <p class="currency">Dólar</p>
+                    <p class="currency-value">U$ 0,00</p>
+                </div>
+            
+        </section>
+    </main>
+
+    
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
+
+
+
