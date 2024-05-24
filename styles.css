@@ -103,27 +103,9 @@ section {
     color: #777777;
 }
 
-.currency-value, .currency-value-to-convert {
+.currency-value-converted, .currency-value-to-convert {
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
     color: #555555;
-}
-
-/*
-    img {
-        width: 44px;
-        height: 44px;
-        margin: 0 auto 4px;
-    }
-
-    label[for="div"] {
-        width: 28px;
-        height: 18px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 18px;
-        color: #777777;
-        text-align: center;
-    }
 }
